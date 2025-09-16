@@ -5,22 +5,32 @@
     <title>Example Cafe Menu</title>
 </head>
 <style>
-   body {
-     font-family: Times New Roman;
+body {
+     font-family: Arial, sans-serif;
       background-color: #fff;
-      border : 3px solid #ccc;        
-      height: 120px;
-       width: 340 px;
-      margin-top: 20px;
-    h1 {
-        margin-top: 0;
-        margin-bottom: 25x;
+      display: flex;
+      justify-content: center;  
+      align-items: center;       
+      min-height: 100vh;      
+      margin: 0;
     }
-     p {
-         margin-top: 25px;
-        margin-bottom: 20px;
-     }
-   }
+    .menu {
+      border: 2px solid #ccc;    
+      padding: 20px;
+      max-width: 600px;          
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    }
+    h1, h2 {
+      text-align: left;
+    }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
      </style>
 </head>
 <body id="top">
