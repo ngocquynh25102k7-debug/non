@@ -4,8 +4,37 @@
     <meta charset="UTD-8">
     <title>Example Cafe Menu</title>
 </head>
-<body>
-    <a id="top"></a>
+<style>
+   body {
+     font-family: Arial, sans-serif;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;  
+      align-items: center;       
+      min-height: 100vh;      
+      margin: 0;
+    }
+    .menu {
+      border: 2px solid #ccc;    
+      padding: 20px;
+      max-width: 600px;          
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    }
+    h1, h2 {
+      text-align: left;
+    }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+     </style>
+</head>
+<body id="top">
+  <div class="menu">
     <h1>Example Cafe Menu</h1>
     <p>
         <a href="starters">Starters</a>
